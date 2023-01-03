@@ -1,0 +1,117 @@
+body {
+  padding: 20px;
+  
+  background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+  
+
+  font-family: sans-serif;
+}
+.menu {
+  width: 80%;
+  max-width: 500px; /* Evita o crescimento demasiado */
+
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  
+  background-color: burlywood;
+}
+
+/* MAIN */
+
+h1 {
+  /* Melhora o espaçamento do elemento */
+  margin-top: 0;
+  margin-bottom: 15px;
+  
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h1, h2 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.established {
+  font-style: italic;
+}
+
+h1, h2, p {
+  text-align: center;
+}
+
+hr {
+  height: 2px;
+  background-color: brown;
+  border-color: brown;
+}
+
+img {
+  display: block;
+  margin-top: -25px; /* Faz com que a imagem suba */
+  /* Centraliza a imagem */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.item p {
+  /* 
+    Transforma os elementos p em inline-block, que são blocos com tamanho ajustável ao conteúdo. 
+  */
+  display: inline-block;
+
+  /* Diminui a distância entre os elementos p */
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+  font-size: 18px;
+}
+
+.flavor, .dessert {
+  /* 
+    Especifica o tamanho dos elementos e a posição do texto dentro dele.
+  */
+  width: 74%;
+  text-align: left;
+}
+
+.price {
+  width: 24%;
+  text-align: right;
+}
+
+.bottom-line {
+  margin-top: 25px;
+}
+
+/* FOOTER */
+
+footer {
+  font-size: 14px;
+}
+
+a {
+  color: black;
+}
+
+a:visited {
+  /* Link visitado */
+  color: black;
+}
+
+a:hover {
+  /* Mouse sobre elemento */
+  color: brown;
+}
+
+a:active {
+  /* Clique no elemento */
+  color: brown;
+}
+
+.address {
+  margin-bottom: 5px;
+}
